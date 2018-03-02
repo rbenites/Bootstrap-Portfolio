@@ -1,0 +1,30 @@
+.connect-with-me-photo{
+    max-width: 25%;
+    max-height: 25%;
+}
+.port-images{
+    max-width: 45%;
+    max-height: 45%;
+}
+.navbar{
+    background-color: #fff;
+}
+.footer{
+    background-color: black;
+}
+.navbar-brand{
+    background-color: teal;
+    padding:1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: tomato;
+
+}
+
+/*
+.my-pic{
+    max-width: 50%;
+    max-height: 50%;
+}
+*/
