@@ -2,24 +2,29 @@
     max-width: 25%;
     max-height: 25%;
 }
+/*
 .port-images{
     max-width: 45%;
     max-height: 45%;
 }
+*/
+/*
+Need to figure out hoe to adjust the card class so that all the boxes are spaced and aligned equally*/
 .navbar{
     background-color: #fff;
 }
 .footer{
-    background-color: black;
+    background-color: #fff;
 }
+/*this is the name portion of the header*/
 .navbar-brand{
     background-color: teal;
     padding:1%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 body{
-    background-color: tomato;
-
+    background-image: url("../images/dust_scratches.png");
 }
 
 /*

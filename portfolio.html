@@ -15,20 +15,22 @@
 
 <body>
     <!--Start of nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+    <nav class="navbar navbar-expand-lg mb-5">
         <a class="navbar-brand" href="index.html">Roberto Benites</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <!--Hamburger button-->
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="collapse navbar-collapse navbar-light justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="portfolio.html">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -46,11 +48,53 @@
                         <div class="portfolio-content">
                             <h1 class="portfolio-header">Portfolio</h1>
                             <hr />
+                            <!-- This works out pretty well but the card item allows us to add some info on what the item will do
                             <img class="port-images float-left mr-2" src="assets/images/Hangman.jpg" alt="Hangman">
                             <img class="port-images float-right ml-2" src="assets/images/RPG.png" alt="RPG">
                             <img class="port-images float-left mr-2" src="assets/images/Trivia.png" alt="Trivia">
                             <img class="port-images float-right ml-2" src="assets/images/Rutgers.png" alt="Rutgers">
                             <img class="port-images float-left mr-2" src="assets/images/RPLSS.png" alt="RPLSS">
+                        </div>
+                    -->
+                        <div class="card float-left" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/images/Hangman.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Hangman</h5>
+                                <p class="card-text">This is my hangman game. Give it a try by clicking the button below.</p>
+                                <a href="#" class="btn btn-primary">Click her to play</a>
+                            </div>
+                        </div>
+                        <div class="card float-right" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/images/RPG.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">RPG</h5>
+                                <p class="card-text">This is my Role Playing Game.</p>
+                                <a href="#" class="btn btn-primary">Click her to play</a>
+                            </div>
+                        </div>
+                        <div class="card float-left" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/images/Trivia.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Trivia</h5>
+                                <p class="card-text">This is my Trivia game.</p>
+                                <a href="#" class="btn btn-primary">Click her to play</a>
+                            </div>
+                        </div>
+                        <div class="card float-right" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/images/Rutgers.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Rutgers Widget</h5>
+                                <p class="card-text">This is my rutgers widget app.</p>
+                                <a href="#" class="btn btn-primary">Click her to play</a>
+                            </div>
+                        </div>
+                        <div class="card float-left" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/images/RPLSS.png" alt="RPLSS">
+                            <div class="card-body">
+                                <h5 class="card-title">Rock Paper Lizard Scisor Spok</h5>
+                                <p class="card-text">If you watch The Big Bang Theory then you know what this is</p>
+                                <a href="#" class="btn btn-primary">Click her to play</a>
+                            </div>
                         </div>
                     </section>
                 </div>
